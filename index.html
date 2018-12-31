@@ -8,29 +8,31 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
-    <h1>Calculator</h1>
-    <textarea name="display" id="display" cols="50" rows="2" placeholder="Enter"></textarea>
-    <div id="numberpad">
-        <span id="numbers">
-            <input type="button" value="1" id="button_1">
-            <input type="button" value="2" id="button_2">
-            <input type="button" value="3" id="button_3">
-            <input type="button" value="4" id="button_4">
-            <input type="button" value="5" id="button_5">
-            <input type="button" value="6" id="button_6">
-            <input type="button" value="7" id="button_7">
-            <input type="button" value="8" id="button_8">
-            <input type="button" value="9" id="button_9">
-            <input type="button" value="0" id="button_0">
-        </span>
-        <span id="operations">
-            <input type="button" value="+" id="button_add">
-            <input type="button" value="-" id="button_sub">
-            <input type="button" value="x" id="button_mul">
-            <input type="button" value="/" id="button_div">
-        </span>
-        <input type="button" value="=" id="button_eql">
-        <input type="button" value="C" id="button_clr">
+    <div id="main">
+        <h1>Calculator</h1>
+        <textarea name="display" id="display" cols="60" rows="2" placeholder="Enter"></textarea>
+        <div id="numberpad">
+            <span id="numbers">
+                <input class="button" type="button" value="1" id="button_1">
+                <input class="button" type="button" value="2" id="button_2">
+                <input class="button" type="button" value="3" id="button_3">
+                <input class="button" type="button" value="4" id="button_4">
+                <input class="button" type="button" value="5" id="button_5">
+                <input class="button" type="button" value="6" id="button_6">
+                <input class="button" type="button" value="7" id="button_7">
+                <input class="button" type="button" value="8" id="button_8">
+                <input class="button" type="button" value="9" id="button_9">
+                <input class="button" type="button" value="0" id="button_0">
+            </span>
+            <span id="operations">
+                <input class="button" type="button" value="+" id="button_add">
+                <input class="button" type="button" value="-" id="button_sub">
+                <input class="button" type="button" value="x" id="button_mul">
+                <input class="button" type="button" value="/" id="button_div">
+            </span>
+            <input class="button" type="button" value="=" id="button_eql">
+            <input class="button" type="button" value="C" id="button_clr">
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>

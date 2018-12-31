@@ -17,8 +17,10 @@ clear.addEventListener('click', inputClear);
 equal.addEventListener('click', operationEqual);
 
 function numberPress(event){
-    displayNumber += event.target.value;
-    display.value = displayNumber;
+    if(event.target.type === "button"){
+        displayNumber += event.target.value;
+        display.value = displayNumber;
+    }
 }
 
 function operationsPress(event){
