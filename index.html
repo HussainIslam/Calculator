@@ -10,7 +10,7 @@
 <body>
     <div id="main">
         <h1>Calculator</h1>
-        <textarea name="display" id="display" cols="60" rows="2" placeholder="Enter"></textarea>
+        <input type="number" name="display" id="display" placeholder="Enter a number">
         <div id="numberpad">
             <span id="numbers">
                 <input class="button" type="button" value="1" id="button_1">
@@ -29,9 +29,14 @@
                 <input class="button" type="button" value="-" id="button_sub">
                 <input class="button" type="button" value="x" id="button_mul">
                 <input class="button" type="button" value="/" id="button_div">
+                <input class="button" type="button" value="^" id="button_power">
             </span>
+            <input class="button" type="button" value="%" id="button_percent">
+            <input class="button" type="button" value="SqRt" id="button_sqrt">
+            <input class="button" type="button" value="Square" id="button_square">
             <input class="button" type="button" value="=" id="button_eql">
             <input class="button" type="button" value="C" id="button_clr">
+            <input class="button" type="button" value="Reset" id="button_reset">
         </div>
     </div>
     <script src="js/script.js"></script>
