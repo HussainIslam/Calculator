@@ -1,5 +1,5 @@
 h1{
-    color:blue;
+    color:rgb(55,188,188);
 }
 
 
@@ -8,6 +8,7 @@ h1{
     width: 10%;
     height: 30px;
     font-size: 1.2em;
+    background-color: #37BCBC;
     
 }
 
@@ -19,7 +20,7 @@ h1{
 
 #numberpad{
     width: 70%;
-    border: 1px solid red;
+    
     
 }
 
@@ -30,9 +31,13 @@ h1{
 
 #display{
     font-size: 2em;
-    width: 70%;
+    width: 60%;
     height: 50px;
     text-align: center;
     margin-bottom: 20px;
+    background-color: #fff27c;
 }
 
+.button:hover{
+    background-color: #007A7A;
+}
