@@ -1,5 +1,8 @@
+body{
+    background-color: #fffbda;
+}
 h1{
-    color:rgb(55,188,188);
+    color:#44B4B4;
 }
 
 
@@ -8,7 +11,7 @@ h1{
     width: 10%;
     height: 30px;
     font-size: 1.2em;
-    background-color: #37BCBC;
+    background-color: #B6F8F8;
     
 }
 
